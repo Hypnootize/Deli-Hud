@@ -76,9 +76,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			"c166"	
+		"xpos"			"c159"	
 		"ypos"			"r105"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"90"
 		"tall"					"29"	
 		"pinCorner"				"2"
@@ -89,17 +89,17 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"Garm3nGreen"
-		"font"				"Garm3n26"
+		"fgcolor"		"255 255 255 255"
+		"font"				"m0refont24"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"
-		"xpos"			"c166"	
-		"ypos"			"r105"
-		"zpos"					"2"
+		"xpos"			"c160"	
+		"ypos"			"r106"
+		"zpos"					"3"
 		"wide"					"90"
 		"tall"					"29"	
 		"pinCorner"				"2"
@@ -110,7 +110,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"Garm3nBlack"
-		"font"				"Garm3n26Out"
+		"fgcolor"		"0 0 0 255"
+		"font"				"m0refont24"
 	}
 }

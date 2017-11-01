@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"	
-		"ypos"			"0"	
+		"ypos"			"30"	
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
@@ -62,7 +62,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"20"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -76,9 +76,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			"c169"	
+		"xpos"			"c166"	
 		"ypos"			"r105"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"90"
 		"tall"					"29"	
 		"pinCorner"				"2"
@@ -89,15 +89,15 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"Garm3nGreen"
-		"font"				"Garm3n26"
+		"fgcolor"		"255 255 255 255"
+		"font"				"m0refont24"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"
-		"xpos"			"c169"	
+		"xpos"			"c166"	
 		"ypos"			"r105"
 		"zpos"					"2"
 		"wide"					"90"
@@ -110,7 +110,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"Garm3nBlack"
-		"font"				"Garm3n26Out"
+		"fgcolor"		"0 0 0 255"
+		"font"				"m0refont24"
 	}
 }

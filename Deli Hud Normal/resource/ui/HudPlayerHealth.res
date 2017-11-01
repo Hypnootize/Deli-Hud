@@ -117,7 +117,54 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}		
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"0"
+		"ypos"			"85"       //180
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"0"
+		"ypos"			"85"       //180
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"0"
+		"ypos"			"85"       //180
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -183,11 +230,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -199,11 +246,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -215,11 +262,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -230,11 +277,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"20" // 20
-		"tall"			"20" // 20
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -245,11 +292,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"20" // 20
-		"tall"			"20" // 20
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
@@ -260,11 +307,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"20" // 20
-		"tall"			"20" // 20
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
@@ -276,11 +323,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"85"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"20" // 20
-		"tall"			"20" // 20
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -293,12 +340,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -309,12 +355,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
@@ -325,12 +370,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
@@ -342,16 +386,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"c+282"
-		"xpos_minmode"	"c+262"
-		"ypos"			"r32"
-		"ypos_minmode"	"c+108"
+		"xpos"			"0"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"26"
-		"tall"			"26"
-		"wide_minmode"	"26"
-		"tall_minmode"	"26"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
@@ -363,12 +403,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -380,12 +419,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -397,12 +435,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -414,12 +451,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
@@ -430,14 +466,13 @@
 		"ControlName" "ImagePanel"
 		"fieldName" "PlayerStatus_SpyMarked"
 		"xpos"			"0"
-		"ypos"			"r114"
-		"ypos_minmode"	"c+26"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible" "1"
-		"enabled" "1"
-		"scaleImage" "1" 
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
 		"image" ""
 		"fgcolor" "TanDark"
 	}
@@ -447,11 +482,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
@@ -462,11 +497,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
@@ -477,11 +512,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
@@ -492,11 +527,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
@@ -507,11 +542,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
@@ -522,11 +557,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_reflect_hud"
@@ -537,13 +572,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
 	}
@@ -552,11 +587,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
@@ -567,11 +602,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
@@ -582,11 +617,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKing"
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
@@ -597,11 +632,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePlague"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
@@ -612,11 +647,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneSupernova"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"85"       //180
 		"zpos"			"7"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
