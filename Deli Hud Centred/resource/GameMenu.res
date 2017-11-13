@@ -1,34 +1,17 @@
 "GameMenu"
 {
 	
-	"CasualButton"
-	{
-		"label" 									"CASUAL" 
-		"command" 									"play_casual"
-		"OnlyAtMenu"								"1"
-	}
-	"CompetitiveButton"
-	{
-		"label" 									"COMPETITIVE" 
-		"command" 									"play_competitive"
-		"OnlyAtMenu"								"1"
-	}
-	"MvMButton"
-	{
-		"label" 									"MVM" 
-		"command" 									"play_mvm"
-		"OnlyAtMenu"								"1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" 									"SERVERS"
 		"command" 									"OpenServerBrowser"
+		"OnlyAtMenu" 								"1"
 	}
 	"CreateServerButton"
 	{
 		"label"										"CREATE"
 		"command"									"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"								"0"
+		"OnlyAtMenu" 								"1"
 	}
 	"CharacterSetupButton"
 	{
@@ -45,11 +28,44 @@
 		"label"										"OPTIONS"
 		"command"									"OpenOptionsDialog"
 	}
+	"ConsoleButton"
+	{
+		"label"										"CONSOLE"
+		"command"									"engine showconsole"
+		"OnlyAtMenu"								"1"
+	}
 	"QuitButton"
 	{
 		"label" 									"QUIT"
 		"command" 									"engine replay_confirmquit"
 		"OnlyAtMenu" 								"1"
+	}
+	
+	
+	
+	"InGameServerBrowser"
+	{
+		"label" 									"SERVERS"
+		"command" 									"OpenServerBrowser"
+		"OnlyInGame"								"1"
+	}
+	"Scoreboard"
+	{
+		"label"										"SCOREBOARD"
+		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
+	"DisconnectButton"
+	{
+		"label" 									"DISCONNECT"
+		"command" 									"engine disconnect"
+		"OnlyInGame" 								"1"
+	}
+	"QuitGameButton"
+	{
+		"label" 									"QUIT"
+		"command" 									"engine replay_confirmquit"
+		"OnlyInGame" 								"1"
 	}
 	
 	"CallVoteButton"
@@ -83,23 +99,5 @@
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
 		"tooltip"									"Achievements"
-	}
-	"Scoreboard"
-	{
-		"label"										"SCOREBOARD"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	"DisconnectButton"
-	{
-		"label" 									"DISCONNECT"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
-	}
-	"QuitGameButton"
-	{
-		"label" 									"QUIT"
-		"command" 									"engine replay_confirmquit"
-		"OnlyInGame" 								"1"
 	}
 }
