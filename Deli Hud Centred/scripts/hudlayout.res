@@ -5,16 +5,14 @@
 //                                                                      //
 //                                                                      //
 //                         deli's HUD v 1.1.8                           //
-// 									//									//
-// 									//									//
-// 									//									// 
+// 																		//
+// 																		//
+// 																		// 
 //////////////////////////////////////////////////////////////////////////
-
 // Crosshairs!
-        
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-        xHairZethzio
+	
+	//honestly the best one here! 
+    xHairZethzio     
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHair"
@@ -30,63 +28,60 @@
 		"textAlignment"	"center"
 		"fgcolor"		"255 255 0 255"
 	} 
-        xHairCross
+	
+    xHairCross
  	{
-    	"xpos"            "c-6"
-   	 	"ypos"            "c-6"
-   	 	"wide"            "11"
-   	 	"tall"            "14"
-    
-   		"fgcolor"         "255 255 0 255"
-   	 	"controlName"     "ceXLabel"
-   	 	"fieldName"       "M0reXhairCross"
-   		"visible"         "0"
-   		"visible_minmode" "0"
-   	    "enabled"         "1"
-    	"zpos"            "1"
-    	"font"            "xHairCross"
-   		"labelText"       "+"
-        "textAlignment"   "center" 
+		"xpos"			"c-6"
+		"ypos"			"c-6"
+		"wide"			"11"
+		"tall"			"14"
+		"fgcolor"		"255 255 0 255"
+		"controlName"	"ceXLabel"
+		"fieldName"		"xHairCross"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+		"font"			"xHairCross"
+		"labelText"		"+"
+		"textAlignment"	"center" 
  	}
   
  	xHairCircle
  	{
-		"xpos"			      "c-100"
-		"ypos"			      "c-100"
-		"wide"			      "200"
-		"tall"		      	"200"
-    	
-    		"fgcolor"         "255 0 120 100"
-    		"controlName"     "ceXLabel"
-    		"fieldName"       "M0reXhairCircle"
-    		"visible"         "0"
-    		"visible_minmode" "0"
-    		"enabled"         "1"
-    		"zpos"            "1"
-    		"font"            "xHairCircle"
-    		"labelText"       "o"
-    		"textAlignment"   "center" 
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"wide"			"200"
+		"tall"			"200"
+		"fgcolor"		"255 0 120 100"
+		"controlName"	"ceXLabel"
+    	"fieldName"		"xHairCircle"
+    	"visible"		"0"
+    	"enabled"		"1"
+    	"zpos"			"1"
+    	"font"			"xHairCircle"
+    	"labelText"		"o"
+    	"textAlignment"	"center" 
   	}
   
   	xHairDot
   	{
-		"xpos"			      "c-13"
-		"ypos"			      "c-18"
-		"wide"			      "27"
-		"tall"			      "29"
-    
-    		"fgcolor"         "0 255 120 255"
-    		"controlName"     "ceXLabel"
-    		"fieldName"       "M0reXhairDot"
-    		"visible"         "0"
-    		"visible_minmode" "0"
-    		"enabled"         "1"
-    		"zpos"            "1"
-    		"font"            "xHairDot"
-   		"labelText"       "."
-   		"textAlignment"   "center" 
+		"xpos"			"c-13"
+		"ypos"			"c-18"
+		"wide"			"27"
+		"tall"			"29"    
+    	"fgcolor"		"0 255 120 255"
+    	"controlName"	"ceXLabel"
+    	"fieldName"		"xHairDot"
+    	"visible"		"0"
+    	"enabled"		"1"
+    	"zpos"			"1"
+    	"font"			"xHairDot"
+   		"labelText"		"."
+   		"textAlignment"	"center" 
   	}
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+//////////////////////////////////////////////////////////////////////////
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

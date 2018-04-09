@@ -69,7 +69,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"chippyMedium10ol"
+		"font"					"M0refont10_outline"
 		"fgcolor"		    "255 255 255 255"
   }
 	"PlayerStatusHealthValueSpecguiLow"

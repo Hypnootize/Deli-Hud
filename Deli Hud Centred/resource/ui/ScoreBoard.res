@@ -80,7 +80,7 @@
 	{
 		"xpos"			          "c-315"
 		"ypos"			          "c-170"
-		"wide"			          "320"
+		"wide"			          "314"
 		"tall"			          "270"
 		"xpos_minmode"        "c-166"
 		"ypos_minmode"        "c15"
@@ -106,9 +106,9 @@
 	}
 	"RedPlayerList"
 	{
-		"xpos"			          "c-10"
+		"xpos"			          "c-6"
 		"ypos"			          "c-170"
-		"wide"			          "320"
+		"wide"			          "315"
 		"tall"			          "270"
 		"xpos_minmode"        "c-166"
 		"ypos_minmode"        "c98"

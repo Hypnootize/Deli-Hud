@@ -471,35 +471,35 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-    ////////////////////// Crosshairs FONTS ///////////////////////////////////////////////////	
+		////////////////////// Crosshairs FONTS //////////////////////
 		"xHair"
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"  //9
+				"tall"		"12"
 				"weight"	"1200"
 				"outline"	"1"
 			}
 		}
-                "xHairCross"
+		"xHairCross"
 		{
 			"1"
 			{
-				"name"		  "Courier"
-				"tall"		  "20"
-				"weight"	  "0"
-				"range"     "0x0000 0x017F"
-				"outline"   "1"
+				"name"		"Courier"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"outline"	"1"
 			}
 		}
 		"xHairCircle"
 		{
 			"1"
 			{
-				"name"		  "taller evolution"
-				"tall"		  "36"
-				"weight"	  "0"
+				"name"		"taller evolution"
+				"tall"		"36"
+				"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -507,144 +507,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"		  "Astro 867"
-				"tall"		  "16"
-				"weight"	  "0"
+				"name"		"Astro 867"
+				"tall"		"16"
+				"weight"	"0"
 				"additive"  "0"
 				"outline"   "1"
 			}
-		}		
-	///////////////////////////////////////////////////////////////////////////////////////////
-	"lType1"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "12"
-        "antialias" "1"
-        "additive"  "0"
-	}
-    }
-    "lType1-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "12"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lType2"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "18"
-        "antialias"	"1"
-        "additive"  "0"
-			}
-    }
-    "lType2-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "18"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lType3-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "37"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}  
-    }
-    "lType4"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "54"
-        "antialias"	"1"
-        "additive"  "0"
-        "outline"	  "0"
-			}
-    }
-  "lType4-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "54"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lSquares"
-    {
-     "1"
-      {
-        "name"      "Screaming Squares"
-        "tall"      "38"
-        "antialias"	"0"
-        "additive"  "0"
-			}
-    }		
-                "chippyHPBucket"
-		{
-			"1"
-			{
-			"name"		"Tahoma"
-			"tall"		"6"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"0"
-			"outline"	"1"
-			}
 		}
 		
-		AlternateGothicEF-NoThree
+		////////////////////// Deli Fonts //////////////////////
+		
+		M0refont10_outline
 		{
 			"1"
 			{
 				"name"		"AlternateGothicEF-NoThree"
-				"tall"		"15"
+				"tall"		"10"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
-		"chippyMedium10ol"
+		M0refont12
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"chippyBold14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
+				"name"		"AlternateGothicEF-NoThree"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
 			}
 		}
 		M0refont14_outline
@@ -658,6 +550,17 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		M0refont15
+		{
+			"1"
+			{
+				"name"		"AlternateGothicEF-NoThree"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont16
 		{
 			"1"
@@ -669,7 +572,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-                M0refont16o
+		M0refont16o
 		{
 			"1"
 			{
@@ -724,8 +627,6 @@ Scheme
 				"outline"	"1"
 			}
 		}
-	   
-		
 		M0refont36
 		{
 			"1"
@@ -770,115 +671,104 @@ Scheme
 				"outline"	"0"
 			}
 		}
-
-		"xHair"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"1200"
-				"outline"	"1"
-			}
-		}
 		
 		"Default"
 		{
-      				"1"
+			"1"
       		{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "14"
-        "antialias" "1"
+				"tall"      "14"
+				"antialias" "1"
 				"yres"	    "480 700"
 			}
-      "2"
-      {
+			"2"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "18"
-        "antialias" "1"
+				"tall"      "18"
+				"antialias" "1"
 				"yres"	    "701 899"
 			}
-      "3"
-      {
+			"3"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "22"
-        "antialias" "1"
+				"tall"      "22"
+				"antialias" "1"
 				"yres"	    "900 1000"
 			}
-      "4"
-      {
+			"4"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "24"
-        "antialias" "1"
+				"tall"      "24"
+				"antialias" "1"
 				"yres"	    "1001 10000"
 			}
-     }
+		}
 		"DefaultOutline"
 		{
-      "1"
-      {
+			"1"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "16"
-        "antialias" "1"
+				"tall"      "16"
+				"antialias" "1"
 				"yres"	    "480 700"
 				"outline"   "1"
 			}
-      "2"
-      {
+			"2"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "20"
-        "antialias" "1"
+				"tall"      "20"
+				"antialias" "1"
 				"yres"	    "701 899"
 				"outline"   "1"
 			}
-      "3"
-      {
+			"3"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "24"
-        "antialias" "1"
+				"tall"      "24"
+				"antialias" "1"
 				"yres"	    "900 1000"
 				"outline"   "1"
 			}
-      "4"
-      {
+			"4"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "26"
-        "antialias" "1"
+				"tall"      "26"
+				"antialias" "1"
 				"yres"    	"1001 10000"
 				"outline"   "1"
 			}
-     }
+		}
 		"DefaultNumber"
 		{
-      "1"
-      {
+			"1"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "16"
-        "antialias" "1"
+				"tall"      "16"
+				"antialias" "1"
 				"yres"	    "480 700"
 			}
-      "2"
-      {
+			"2"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "20"
-        "antialias" "1"
+				"tall"      "20"
+				"antialias" "1"
 				"yres"	    "701 899"
 			}
-      "3"
-      {
+			"3"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "24"
-        "antialias" "1"
+				"tall"      "24"
+				"antialias" "1"
 				"yres"	    "900 1000"
 			}
-      "4"
-      {
+			"4"
+			{
 				"name"		  "AlternateGothicEF-NoThree"
-        "tall"      "26"
-        "antialias" "1"
+				"tall"      "26"
+				"antialias" "1"
 				"yres"	    "1001 10000"
 			}
-     }
+		}
 		"DefaultUnderline"
 		{
 			"1"
@@ -899,35 +789,35 @@ Scheme
 		}
 		"DefaultSmall"
 		{
-      "1"
-      {
+			"1"
+			{
 				"name"		"AlternateGothicEF-NoThree"
-        "tall"      "13"
-        "antialias" "1"
+				"tall"      "13"
+				"antialias" "1"
 				"yres"	"480 700"
 			}
-      "2"
-      {
+			"2"
+			{
 				"name"		"AlternateGothicEF-NoThree"
-        "tall"      "16"
-        "antialias" "1"
+				"tall"      "16"
+				"antialias" "1"
 				"yres"	"701 899"
 			}
-      "3"
-      {
+			"3"
+			{
 				"name"		"AlternateGothicEF-NoThree"
-        "tall"      "20"
-        "antialias" "1"
+				"tall"      "20"
+				"antialias" "1"
 				"yres"	"900 1000"
 			}
-      "4"
-      {
+			"4"
+			{
 				"name"		"AlternateGothicEF-NoThree"
-        "tall"      "24"
-        "antialias" "1"
+				"tall"      "24"
+				"antialias" "1"
 				"yres"	"1001 10000"
 			}
-     }
+		}
 		"DefaultVerySmall"
 		{
 			"1"
@@ -5985,11 +5875,6 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" 
-		{
-			"font" "resource/Surface_Medium.otf"
-			"name" "AlternateGothicEF-NoThree"
-		}	
 		"8" 
 		{
 			"font" "resource/AlternateGothicEF-NoThree.TTF"
@@ -6004,11 +5889,6 @@ Scheme
 		{
 			"font" "resource/taller_evolution.ttf"
 			"name" "taller evolution"
-		}
-		"11"
-		{
-			"font" "resource/Screaming Squares.ttf"
-			"name" "Screaming Squares"			
 		}	 	
 	}
 }

@@ -60,7 +60,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValueTarget"
 		"xpos"			"-6"
-		"ypos"			"12"
+		"ypos"			"13"
 		"zpos"			"20"
 		"wide"			"40"
 		"tall"			"20"
@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labeltext"		"%Health%"
-		"font"			"chippyBold14"
+		"font"			"M0refont14_outline"
 		"fgcolor_override"  "255 255 255 255"
 	}
 	"PlayerStatusHealthValueTargetShadow"
@@ -76,7 +76,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValueTargetShadow"
 		"xpos"			"-4"
-		"ypos"			"13"
+		"ypos"			"14"
 		"zpos"			"20"
 		"wide"			"40"
 		"tall"			"20"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labeltext"		"%Health%"
-		"font"			"chippyBold14"
+		"font"			"M0refont14_outline"
 		"fgcolor_override"  "0 0 0 255"
 	}										
 }

@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labeltext"		"%Health%"
-		"font"			"chippyBold14"
+		"font"			"M0refont14_outline"
 		"fgcolor_override"  "255 255 255 255"
 	}
 	"PlayerStatusHealthValueTargetShadow"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labeltext"		"%Health%"
-		"font"			"chippyBold14"
+		"font"			"M0refont14_outline"
 		"fgcolor_override"  "0 0 0 255"
 	}										
 }

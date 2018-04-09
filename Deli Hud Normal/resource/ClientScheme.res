@@ -472,35 +472,36 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-    ////////////////////// Crosshairs FONTS ///////////////////////////////////////////////////	
+		
+		////////////////////// Crosshairs FONTS //////////////////////
 		"xHair"
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"  //9
+				"tall"		"12"
 				"weight"	"1200"
 				"outline"	"1"
 			}
 		}
-                "xHairCross"
+		"xHairCross"
 		{
 			"1"
 			{
-				"name"		  "Courier"
-				"tall"		  "20"
-				"weight"	  "0"
-				"range"     "0x0000 0x017F"
-				"outline"   "1"
+				"name"		"Courier"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"outline"	"1"
 			}
 		}
 		"xHairCircle"
 		{
 			"1"
 			{
-				"name"		  "taller evolution"
-				"tall"		  "36"
-				"weight"	  "0"
+				"name"		"taller evolution"
+				"tall"		"36"
+				"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -508,144 +509,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		  "Astro 867"
-				"tall"		  "16"
-				"weight"	  "0"
+				"name"		"Astro 867"
+				"tall"		"16"
+				"weight"	"0"
 				"additive"  "0"
 				"outline"   "1"
 			}
-		}		
-	///////////////////////////////////////////////////////////////////////////////////////////
-	"lType1"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "12"
-        "antialias" "1"
-        "additive"  "0"
-	}
-    }
-    "lType1-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "12"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lType2"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "18"
-        "antialias"	"1"
-        "additive"  "0"
-			}
-    }
-    "lType2-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "18"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lType3-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "37"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}  
-    }
-    "lType4"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "54"
-        "antialias"	"1"
-        "additive"  "0"
-        "outline"	  "0"
-			}
-    }
-  "lType4-O"
-    {
-     "1"
-      {
-        "name"      "Berthold Akzidenz Grotesk BE"
-        "tall"      "54"
-        "antialias"	"0"
-        "additive"  "0"
-        "outline"	  "1"
-			}
-    }
-    "lSquares"
-    {
-     "1"
-      {
-        "name"      "Screaming Squares"
-        "tall"      "38"
-        "antialias"	"0"
-        "additive"  "0"
-			}
-    }		
-                "chippyHPBucket"
-		{
-			"1"
-			{
-			"name"		"Tahoma"
-			"tall"		"6"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"0"
-			"outline"	"1"
-			}
 		}
 		
-		AlternateGothicEF-NoThree
+		////////////////////// Deli Fonts //////////////////////
+		
+		M0refont10_outline
 		{
 			"1"
 			{
 				"name"		"AlternateGothicEF-NoThree"
-				"tall"		"15"
+				"tall"		"10"
 				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"chippyMedium10ol"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Medium"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"chippyBold14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
 		M0refont12
@@ -670,6 +552,17 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		M0refont15
+		{
+			"1"
+			{
+				"name"		"AlternateGothicEF-NoThree"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont16
 		{
 			"1"
@@ -681,7 +574,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-                M0refont16o
+		M0refont16o
 		{
 			"1"
 			{
@@ -736,8 +629,6 @@ Scheme
 				"outline"	"1"
 			}
 		}
-	   
-		
 		M0refont36
 		{
 			"1"
@@ -780,17 +671,6 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
-			}
-		}
-
-		"xHair"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"1200"
-				"outline"	"1"
 			}
 		}
 		
@@ -6098,11 +5978,6 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" 
-		{
-			"font" "resource/Surface_Medium.otf"
-			"name" "AlternateGothicEF-NoThree"
-		}	
 		"8" 
 		{
 			"font" "resource/AlternateGothicEF-NoThree.TTF"
@@ -6118,10 +5993,5 @@ Scheme
 			"font" "resource/taller_evolution.ttf"
 			"name" "taller evolution"
 		}
-		"11"
-		{
-			"font" "resource/Screaming Squares.ttf"
-			"name" "Screaming Squares"			
-		}	 	
 	}
 }
