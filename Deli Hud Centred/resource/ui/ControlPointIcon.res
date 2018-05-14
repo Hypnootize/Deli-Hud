@@ -95,9 +95,9 @@
 		"font"			    "ControlPointTimer"
 		"font_minmode"	"ControlPointTimerSmaller"
 	}
-				
+	
 	"CPTimerBG"
-	{h
+	{
 		"ControlName"	  "Panel"
 		"fieldName"		  "CPTimerBG"
 		"xpos"			    "0"

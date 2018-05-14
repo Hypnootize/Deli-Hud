@@ -20,8 +20,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -44,8 +43,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -65,13 +63,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -80,8 +75,6 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -92,8 +85,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -113,13 +105,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -131,7 +120,6 @@
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -139,8 +127,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -160,13 +147,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -175,8 +159,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	[$WIN32]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -187,8 +169,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -208,14 +189,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -225,8 +202,6 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -237,8 +212,45 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
+	}
+	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"35"
+		"ypos"			"17"
+		"zpos"			"5"
+		"wide"			"38"
+		"tall"			"13"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"M0refont12"
+		"fgcolor"		"255 255 255 255"
 	}	
+	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"38"
+		"tall"			"13"
+		"visible"		"0"
+		"enabled"		"0"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
+	}
 }
