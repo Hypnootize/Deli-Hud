@@ -206,20 +206,20 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"66"
 			"ypos"			"0"
-			"wide"			"130"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
+			"AllCaps"		"1"
 			"font"			"M0refont15"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
-			"AllCaps"		"1"
-
+			
 			if_mini
 			{
 				"visible"	"0"
@@ -230,20 +230,20 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
+			"xpos"			"66"
 			"ypos"			"17"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
+			"AllCaps"		"1"
 			"font"			"M0refont15"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-			"AllCaps"		"1"
-
+		
 			if_mini
 			{
 				"xpos"	"67"
@@ -265,9 +265,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"66"
 			"ypos"			"33"
-			"wide"			"130"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -393,7 +393,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -401,6 +401,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						if_mini
+						{
+							"wide"		"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -414,7 +419,12 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"0 255 132 255"
+						
+						if_mini
+						{
+							"fgcolor_override"	"CreditsGreen"
+						}
 					}
 
 					"Frame"
@@ -423,11 +433,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"		"f0"
+						}
 					}
 				}
 			}

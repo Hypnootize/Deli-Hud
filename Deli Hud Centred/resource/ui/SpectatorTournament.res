@@ -19,9 +19,9 @@
 		"team1_player_delta_y"				"-24"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"120"
+		"team2_player_base_y"				"225"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"24"
+		"team2_player_delta_y"				"-24"
 		
 		"playerpanels_kv"
 		{

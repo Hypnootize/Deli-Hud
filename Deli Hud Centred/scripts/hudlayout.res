@@ -1,87 +1,5 @@
 "Resource/HudLayout.res"
 {
-//////////////////////////////////////////////////////////////////////////
-//                                                                      //
-//                                                                      //
-//                                                                      //
-//                         deli's HUD v 1.1.8                           //
-// 																		//
-// 																		//
-// 																		// 
-//////////////////////////////////////////////////////////////////////////
-// Crosshairs!
-	
-	//honestly the best one here! 
-    xHairZethzio     
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHair"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-		"xpos"			"c-7" 
-		"ypos"			"c-8"  
-		"wide"			"14"   
-		"tall"			"16"   
-		"font"			"xHair"
-		"labelText"		"+"
-		"textAlignment"	"center"
-		"fgcolor"		"255 255 0 255"
-	} 
-	
-    xHairCross
- 	{
-		"xpos"			"c-6"
-		"ypos"			"c-6"
-		"wide"			"11"
-		"tall"			"14"
-		"fgcolor"		"255 255 0 255"
-		"controlName"	"ceXLabel"
-		"fieldName"		"xHairCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-		"font"			"xHairCross"
-		"labelText"		"+"
-		"textAlignment"	"center" 
- 	}
-  
- 	xHairCircle
- 	{
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-		"fgcolor"		"255 0 120 100"
-		"controlName"	"ceXLabel"
-    	"fieldName"		"xHairCircle"
-    	"visible"		"0"
-    	"enabled"		"1"
-    	"zpos"			"1"
-    	"font"			"xHairCircle"
-    	"labelText"		"o"
-    	"textAlignment"	"center" 
-  	}
-  
-  	xHairDot
-  	{
-		"xpos"			"c-13"
-		"ypos"			"c-18"
-		"wide"			"27"
-		"tall"			"29"    
-    	"fgcolor"		"0 255 120 255"
-    	"controlName"	"ceXLabel"
-    	"fieldName"		"xHairDot"
-    	"visible"		"0"
-    	"enabled"		"1"
-    	"zpos"			"1"
-    	"font"			"xHairDot"
-   		"labelText"		"."
-   		"textAlignment"	"center" 
-  	}
-	
-//////////////////////////////////////////////////////////////////////////
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -172,13 +90,13 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"408"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"140"
-		"tall"			"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -626,8 +544,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"xpos"			"110"
+		"ypos"			"r75"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -901,6 +819,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"-60"
+		"zpos"					"20"
 		"wide"					"f0"
 		"tall"					"1000"
 	}
@@ -912,6 +831,7 @@
 		"enabled"				"1"
 		"xpos"					"c-225"
 		"ypos"					"250"
+		"zpos"					"20"
 		"wide"					"450"
 		"tall"					"218"
 	}
@@ -919,16 +839,12 @@
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
-		"wide"					"266"
-		"wide_lodef"			"400"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
@@ -1011,6 +927,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1023,6 +940,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-59"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1035,6 +953,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1047,11 +966,9 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1069,12 +986,11 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"320"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 	}
 
@@ -1082,12 +998,11 @@
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 	}
 
@@ -1108,13 +1023,11 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudArenaCapPointCountdown
@@ -1147,6 +1060,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
+		"zpos"					"20"
 		"wide"					"f0"
 		"tall"					"50"
 	}
@@ -1416,7 +1330,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-316"
 		"ypos"			"c-52"
-		"zpos"			"2"
+		"zpos"			"20"
 		"wide"			"640"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"

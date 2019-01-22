@@ -1,4 +1,4 @@
-//
+#base "../resource/crosshairs/Crosshair Fonts.res"
 // TRACKER SCHEME RESOURCE FILE
 //
 // sections:
@@ -473,50 +473,6 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
-		////////////////////// Crosshairs FONTS //////////////////////
-		"xHair"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"1200"
-				"outline"	"1"
-			}
-		}
-		"xHairCross"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"outline"	"1"
-			}
-		}
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"taller evolution"
-				"tall"		"36"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"xHairDot"
-		{
-			"1"
-			{
-				"name"		"Astro 867"
-				"tall"		"16"
-				"weight"	"0"
-				"additive"  "0"
-				"outline"   "1"
-			}
-		}
-		
 		////////////////////// Deli Fonts //////////////////////
 		
 		M0refont10_outline
@@ -528,6 +484,17 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"1"
+			}
+		}
+		M0refont10
+		{
+			"1"
+			{
+				"name"		"AlternateGothicEF-NoThree"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
 			}
 		}
 		M0refont12
@@ -559,7 +526,7 @@ Scheme
 				"name"		"AlternateGothicEF-NoThree"
 				"tall"		"15"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 				"outline"	"0"
 			}
 		}
@@ -627,6 +594,17 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"1"
+			}
+		}
+		M0refont28
+		{
+			"1"
+			{
+				"name"		"AlternateGothicEF-NoThree"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
 			}
 		}
 		M0refont36
@@ -1187,7 +1165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AlternateGothicEF-NoThree"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -5977,21 +5955,12 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
-		"8" 
-		{
-			"font" "resource/AlternateGothicEF-NoThree.TTF"
-			"name" "AlternateGothicEF-NoThree"
 		}
-		"9" 
+		"7" "resource/ocra.ttf"
+		"8"
 		{
-			"font" "resource/ASTRO867.TTF"
-			"name" "Astro 867"
-		}			
-		"10" 
-		{
-			"font" "resource/taller_evolution.ttf"
-			"name" "taller evolution"
+			"font" "resource/AlternateGothic.TTF"
+			"name" "AlternateGothicEF-NoThree"
 		}
 	}
 }

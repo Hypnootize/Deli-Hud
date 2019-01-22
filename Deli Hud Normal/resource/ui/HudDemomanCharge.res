@@ -19,4 +19,3 @@
 		"brighttext"	"0"
 	}					
 }
-                                                                                                                                                                                                                                                                                                                                                                                                          
