@@ -65,5 +65,5 @@
 		"bgcolor_override" "0 0 0 175"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
+	}			
 }

@@ -26,7 +26,6 @@
 		"wide"			"64"
 		"tall"			"56"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
 		"scaleImage"	"1"		

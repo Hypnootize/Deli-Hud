@@ -8,7 +8,6 @@
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"130"
-		"wide_minmode"	"56"
 		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
@@ -199,8 +198,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
 		}			
 	}				
