@@ -14,15 +14,9 @@
 <a>INSTALLATION</a>
 ====
 
-**1)** Extract/Unzip the hud
+**1)** Extract/Unzip the hud and copy the Deli Hud folder
 
-**2)** Choose between one of the 2 versions, Normal or Centred. You can see the differences from the screenshots album!
-
-**3)** Copy the desired Deli Hud folder (**NOT** Deli-Hud-Master, either Deli Hud Normal or Deli Hud Centred)
-
-**4)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Deli Hud Normal)
-
-**5)** Go to Resource/Fonts select all the font and install them (rightclick while selected and install)
+**2)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
 **NOTES:**
 
