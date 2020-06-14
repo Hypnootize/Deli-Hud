@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
 {
 	HudPlayerStatus
 	{

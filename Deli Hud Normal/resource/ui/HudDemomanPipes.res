@@ -8,6 +8,7 @@
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"130"
+		"wide_minmode"	"56"
 		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
@@ -45,19 +46,20 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"c-70"
-		"ypos"					"370"
+		"xpos"					"360"
+		"ypos"					"430"
 		"zpos"					"2"
 		"wide"					"140"
-		"tall"					"8"				
+		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
+        "bgcolor_override" 		"0 0 0 230"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
+	}
 		
 	"PipesPresentPanel"
 	{
