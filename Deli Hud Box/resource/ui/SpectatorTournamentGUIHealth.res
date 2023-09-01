@@ -11,8 +11,8 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,9 +25,9 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,8 +40,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,38 +54,38 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	"PlayerStatusHealthValueSpecgui"
+	"PlayerStatusHealthValueSpectator"
 	{
-		"ControlName"	"ceXLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecgui"
-		"xpos"			    "1"
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayerStatusHealthValueSpectator"
+		"xpos"			    "0"
 		"ypos"			    "5"
 		"zpos"			    "8"
 		"wide"			    "24"
 		"tall"			    "18"
 		"visible"		    "1"
 		"enabled"		    "1"
-		"textAlignment"	"center"	
-		"labeltext"		  "%Health%"
-		"font"					"chippyMedium10ol"
+		"textAlignment"		"center"
+		"labeltext"		 	"%Health%"
+		"font"				"M0refont15"
 		"fgcolor"		    "255 255 255 255"
-  }
-	"PlayerStatusHealthValueSpecguiLow"
+  	}
+	"PlayerStatusHealthValueSpectatorShadow"
 	{
-		"ControlName"	"ceXLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecguiLow"
-		"xpos"			    "2"
-		"ypos"			    "4+"
-		"zpos"			    "6"
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayerStatusHealthValueSpectatorShadow"
+		"xpos"			    "1"
+		"ypos"			    "6"
+		"zpos"			    "7"
 		"wide"			    "24"
 		"tall"			    "18"
-		"visible"		    "0"
+		"visible"		    "1"
 		"enabled"		    "1"
-		"textAlignment"	"center"	
-		"labeltext"		  "%Health%"
-		"font"					"DefaultNumber"
+		"textAlignment"		"center"
+		"labeltext"		 	"%Health%"
+		"font"				"M0refont15"
 		"fgcolor"		    "0 0 0 255"
-	}								
+  	}
 }

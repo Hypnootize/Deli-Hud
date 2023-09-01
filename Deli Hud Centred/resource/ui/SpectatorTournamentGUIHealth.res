@@ -56,10 +56,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValueSpecgui"
+	"PlayerStatusHealthValueSpectator"
 	{
-		"ControlName"	"ceXLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecgui"
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpectator"
 		"xpos"			    "1"
 		"ypos"			    "5"
 		"zpos"			    "5"
@@ -69,23 +69,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"M0refont10_outline"
+		"font"					"M0refont14_outline"
 		"fgcolor"		    "255 255 255 255"
-  }
-	"PlayerStatusHealthValueSpecguiLow"
-	{
-		"ControlName"	"ceXLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecguiLow"
-		"xpos"			    "2"
-		"ypos"			    "4+"
-		"zpos"			    "5"
-		"wide"			    "24"
-		"tall"			    "18"
-		"visible"		    "0"
-		"enabled"		    "1"
-		"textAlignment"	"center"	
-		"labeltext"		  "%Health%"
-		"font"					"DefaultNumber"
-		"fgcolor"		    "0 0 0 0"
-	}								
+  	}
 }

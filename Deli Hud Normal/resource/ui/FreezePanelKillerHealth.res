@@ -11,8 +11,8 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"		
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,12 +53,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueKiller"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueKiller"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"20"
@@ -66,25 +66,25 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"		"%Health%"
 		"font"			"M0refont24"
-		"fgcolor_override"  "255 255 255 255"	
-	}	
-	"PlayerStatusHealthValueShadow"
+		"fgcolor"  		"255 255 255 255"
+	}
+	"PlayerStatusHealthValueKillerShadow"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueKillerShadow"
 		"xpos"			"1"
 		"ypos"			"1"
-		"zpos"			"20"
+		"zpos"			"19"
 		"wide"			"40"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"		"%Health%"
 		"font"			"M0refont24"
-		"fgcolor_override"  "0 0 0 255"	
-	}	
+		"fgcolor"  		"0 0 0 255"
+	}
 }
