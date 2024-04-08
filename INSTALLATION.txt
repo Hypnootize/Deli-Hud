@@ -1,7 +1,0 @@
-**1)** Extract/Unzip the hud
-
-**2)** Choose between one of the 3 versions, Normal, Centred, Box. You can see the differences from the screenshots album!
-
-**3)** Copy the desired Deli Hud folder (**NOT** Deli-Hud-Master, either Deli Hud Normal, Deli Hud Centred or Deli Hud Box)
-
-**4)** Paste The folder to your custom tf folder for example (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Deli Hud Normal)
